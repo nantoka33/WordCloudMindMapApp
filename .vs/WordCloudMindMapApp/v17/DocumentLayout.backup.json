@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WordCloudMindMapApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|c:\\wordcloudmindmapapp\\wordcloudmindmapapp\\wordcloudmindmapapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|solutionrelative:wordcloudmindmapapp\\wordcloudmindmapapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|c:\\wordcloudmindmapapp\\wordcloudmindmapapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|solutionrelative:wordcloudmindmapapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|c:\\wordcloudmindmapapp\\wordcloudmindmapapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|solutionrelative:wordcloudmindmapapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|c:\\wordcloudmindmapapp\\wordcloudmindmapapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72D069BB-1549-498F-BAA2-228AA27514BE}|WordCloudMindMapApp\\WordCloudMindMapApp.csproj|solutionrelative:wordcloudmindmapapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\App.xaml",
+              "RelativeDocumentMoniker": "WordCloudMindMapApp\\App.xaml",
+              "ToolTip": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\App.xaml",
+              "RelativeToolTip": "WordCloudMindMapApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T01:05:10.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordCloudMindMapApp",
+              "DocumentMoniker": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\WordCloudMindMapApp.csproj",
+              "RelativeDocumentMoniker": "WordCloudMindMapApp\\WordCloudMindMapApp.csproj",
+              "ToolTip": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\WordCloudMindMapApp.csproj",
+              "RelativeToolTip": "WordCloudMindMapApp\\WordCloudMindMapApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-17T00:39:58.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WordCloudMindMapApp\\MainWindow.xaml",
+              "ToolTip": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\MainWindow.xaml",
+              "RelativeToolTip": "WordCloudMindMapApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T01:46:43.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WordCloudMindMapApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\WordCloudMindMapApp\\WordCloudMindMapApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WordCloudMindMapApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:46:39.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
