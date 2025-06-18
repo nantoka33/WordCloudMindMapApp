@@ -1,0 +1,2 @@
+# WordCloudMindMapApp
+日本語でワードクラウドを作成するアプリケーション
