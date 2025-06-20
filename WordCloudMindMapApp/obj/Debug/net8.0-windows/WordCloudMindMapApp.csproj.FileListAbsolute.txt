@@ -24,3 +24,4 @@ C:\WordCloudMindMapApp\WordCloudMindMapApp\bin\Debug\net8.0-windows\WordCloudSha
 C:\WordCloudMindMapApp\WordCloudMindMapApp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\WordCloudMindMapApp\WordCloudMindMapApp\obj\Debug\net8.0-windows\WordCloudMindMapApp.csproj.AssemblyReference.cache
 C:\WordCloudMindMapApp\WordCloudMindMapApp\obj\Debug\net8.0-windows\WordClou.8F4B9EEC.Up2Date
+C:\WordCloudMindMapApp\WordCloudMindMapApp\obj\Debug\net8.0-windows\WordCloudMindMapApp.sourcelink.json
