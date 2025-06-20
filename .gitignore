@@ -1,0 +1,38 @@
+# ビルド出力
+bin/
+obj/
+
+# ユーザーごとの設定
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS コード生成ファイル
+.vs/
+Generated_Code/
+
+# パッケージ管理
+packages/
+
+# 一時ファイル
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ロックファイル
+project.lock.json
+project.fragment.lock.json
+
+# その他
+*.pdb
+*.exe
+*.dll
+*.db
+*.zip
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+desktop.ini
