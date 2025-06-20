@@ -32,6 +32,22 @@ namespace WordCloudMindMapApp
                 try
                 {
                     var content = File.ReadAllText(openFileDialog.FileName, Encoding.UTF8);
+                    if (string.IsNullOrWhiteSpace(content))
+                    {
+                        MessageBox.Show("ファイルが空です。");
+                        return;
+                    }
+                    if(content.Contains(" "))
+                    {
+                        content = content.Replace(" ", "");
+                    }else if (content.Contains("\n"))
+                    {
+                        content = content.Replace("\n", "");
+                    }
+                    else if (content.Contains("\r"))
+                    {
+                        content = content.Replace("\r", "");
+                    }
                     InputTextBox.Text = content;
                 }
                 catch (Exception ex)
@@ -140,5 +156,38 @@ namespace WordCloudMindMapApp
             bitmapImage.EndInit();
             return bitmapImage;
         }
+
+        private void SaveImage_Click(object sender, RoutedEventArgs e)
+        {
+            var bitmapSource = WordCloudImage.Source as BitmapSource;
+            if (bitmapSource == null)
+            {
+                MessageBox.Show("保存する画像がありません。");
+                return;
+            }
+
+            var saveFileDialog = new Microsoft.Win32.SaveFileDialog
+            {
+                Filter = "PNG画像 (*.png)|*.png",
+                FileName = "wordcloud.png"
+            };
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    using var fileStream = new FileStream(saveFileDialog.FileName, FileMode.Create);
+                    var encoder = new PngBitmapEncoder();
+                    encoder.Frames.Add(BitmapFrame.Create(bitmapSource));
+                    encoder.Save(fileStream);
+                    MessageBox.Show("画像を保存しました。");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("画像保存エラー: " + ex.Message);
+                }
+            }
+        }
+
     }
 }
