@@ -36,3 +36,11 @@ project.fragment.lock.json
 .DS_Store
 Thumbs.db
 desktop.ini
+
+*.zip
+release_temp/
+WordCloudMindMapApp_ver_*/
+
+# Exclude local release scripts and schedule
+make_release.bat
+pull_push_schedule.json
