@@ -1,7 +1,7 @@
 ﻿<Window x:Class="WordCloudMindMapApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Word Cloud Viewer" Height="600" Width="900">
+        Title="Word Cloud Viewer" Height="600" Width="1043">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,6 +20,9 @@
             Click="GenerateWordCloud_Click"/>
             <Button Content="ファイル読み込み" Width="120" Height="30" Margin="10,0,0,0"
             Click="LoadFile_Click"/>
+            <Button Content="画像保存" Width="100" Height="30" Margin="10,0,0,0"
+            Click="SaveImage_Click"/>
+
         </StackPanel>
 
         <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1">
