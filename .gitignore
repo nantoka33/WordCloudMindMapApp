@@ -44,3 +44,5 @@ WordCloudMindMapApp_ver_*/
 # Exclude local release scripts and schedule
 make_release.bat
 pull_push_schedule.json
+config.json
+recent_projects.json
