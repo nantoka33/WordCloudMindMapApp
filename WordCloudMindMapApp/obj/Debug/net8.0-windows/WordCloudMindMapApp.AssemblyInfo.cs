@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordCloudMindMapApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11b9204fbdba7de2228bab430e7d344d96a4959")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df625085eaa4314599eab3aec235ce2ba45cd499")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordCloudMindMapApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordCloudMindMapApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
